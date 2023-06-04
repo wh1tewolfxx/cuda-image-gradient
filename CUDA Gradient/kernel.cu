@@ -129,6 +129,10 @@ Error:
 
 int main()
 {
+
+    std::cout << "CUDA version:   v" << CUDART_VERSION << std::endl;
+
+
     while (true) {
 
         auto start = high_resolution_clock::now();
